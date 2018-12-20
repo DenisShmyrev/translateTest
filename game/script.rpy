@@ -2,9 +2,9 @@ init:
     $ buttonpop = False
 
 label start:
-    stop music    
+    stop music
 
-    $ mc_name = "Shaun"
+    $ mc_name = "Шон"
     $ _game_menu_screen = "navigation"
 
     $ mc_gender = 1
@@ -31,12 +31,12 @@ label introduction:
     play music "music/track09.ogg" fadeout 1 fadein 1
     scene bg black with dissolve
     scene scene1a with dissolve
-    mc "By hoof and claw and tooth of minx."
-    mc "With heart of griffin and mind of sphinx."
-    mc "The tower falls, the clock it chimes. "
-    mc "Bury the past—let this power be mine."
-    mc "Let this power be mine. "
-    mc "Let this..."
+    mc "Копытом, когтем и зубом шалфея."
+    mc "С сердцем грифона и разумом сфинкса."
+    mc "Башня падает, часы ее звенят."
+    mc "Прошлое хорони - пусть эта сила будет моей."
+    mc "Пусть эта сила будет моей."
+    mc "Пусть эта..."
     scene scene1b with dissolve
     mc "A-aahh..."
     blank "Each motion of my hand draws the light through the air, magic surging forward from my core. "
